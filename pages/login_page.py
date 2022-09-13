@@ -29,4 +29,4 @@ class LoginPage(BasePage):
        
         register_button = self.browser.find_element(*LoginPageLocators.REGISTER_BUTTON)
         register_button.click()
-        assert self.find_element(*LoginPageLocators.REGISTER_BUTTON).click(), "Кнопка регистрации не сработала"
+        
